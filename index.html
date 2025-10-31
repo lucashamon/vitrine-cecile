@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta tag essentiel pour le responsive design mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre sur-optimisé pour le référencement local autour de 20km -->
+    <title>Cécile ROGER - Ostéopathe D.O. à Sion-les-Mines (44590) | Châteaubriant, Bain-de-Bretagne</title>
+    <!-- Description mise à jour avec les mots-clés de proximité -->
+    <meta name="description" content="Cécile ROGER, Ostéopathe D.O. à Sion-les-Mines (44). Consultation pour toute la famille. Facilement accessible depuis Derval, Châteaubriant, Bain-de-Bretagne, Grand-Fougeray et Nozay. Prise de RDV Doctolib.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Utilisation de la police Inter et chargement des icônes Font Awesome -->
+    <style>
+        body {
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+            background-color: #f7fafc; /* Gris très clair */
+        }
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+        .rating-star {
+            color: #fcd34d; /* Jaune orangé pour les étoiles */
+        }
+        /* Style pour l'action flottante sur mobile */
+        .fixed-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'osteo-primary': '#059669', // Emerald 600
+                        'osteo-light': '#10b981', // Emerald 500
+                        'osteo-dark': '#065f46', // Emerald 800
+                        'doctolib': '#00a69a', // Couleur Doctolib
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="text-gray-800 antialiased">
+
+    <!-- En-tête / Barre de navigation (Sticky pour un accès rapide au RDV) -->
+    <header class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="container mx-auto p-4 flex justify-between items-center max-w-7xl">
+            <!-- Nom et Profession -->
+            <a href="#hero" class="text-xl font-extrabold text-osteo-dark">
+                Cécile ROGER <span class="block text-sm font-medium text-osteo-light">Ostéopathe D.O. à Sion-les-Mines</span>
+            </a>
+            <!-- Bouton Doctolib mis à jour avec le vrai lien -->
+            <a href="https://www.doctolib.fr/osteopathe/sion-les-mines/cecile-roger" target="_blank" class="px-4 py-2 bg-doctolib text-white font-bold rounded-lg shadow-md hover:bg-doctolib/90 transition duration-300 transform hover:scale-105 text-sm md:text-base flex items-center">
+                <i class="fas fa-calendar-check mr-2"></i> RDV EN LIGNE
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section 1: Héro (Accueil) -->
+        <section id="hero" class="bg-osteo-light py-12 md:py-24 text-white shadow-inner">
+            <div class="container mx-auto px-4 max-w-7xl flex flex-col md:flex-row items-center justify-between">
+                <!-- Contenu Textuel -->
+                <div class="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-4">
+                        Votre Ostéopathe D.O. à Sion-les-Mines
+                    </h1>
+                    <!-- Description professionnelle ajustée -->
+                    <p class="text-lg md:text-xl mb-6 opacity-90">
+                        L'ostéopathie est une méthode thérapeutique manuelle douce reposant sur une approche globale. Cécile ROGER vous reçoit sur rendez-vous à son cabinet.
+                    </p>
+                    <!-- Bouton Doctolib mis à jour avec le vrai lien -->
+                    <a href="https://www.doctolib.fr/osteopathe/sion-les-mines/cecile-roger" target="_blank" class="inline-block px-8 py-4 bg-white text-osteo-dark font-extrabold text-xl rounded-xl shadow-2xl hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                        <i class="fas fa-calendar-plus mr-3"></i> Prendre RDV sur Doctolib
+                    </a>
+                </div>
+
+                <!-- Espace Photo / Placeholder -->
+                <div class="md:w-1/3 flex justify-center">
+                    <div class="w-48 h-48 sm:w-64 sm:h-64 bg-osteo-dark rounded-full shadow-2xl overflow-hidden border-4 border-white">
+                        <img src="https://placehold.co/256x256/065f46/ffffff?text=Portrait+Cécile+ROGER" alt="Portrait de Cécile ROGER, Ostéopathe à Sion-les-Mines" class="w-full h-full object-cover opacity-80" onerror="this.src='https://placehold.co/256x256/065f46/ffffff?text=Portrait'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: L'Ostéopathie et l'Approche -->
+        <section id="approche" class="py-12 md:py-16 bg-white">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <h2 class="text-3xl font-bold text-center text-osteo-primary mb-10">L'Ostéopathie avec Cécile ROGER</h2>
+
+                <div class="bg-gray-50 p-6 md:p-10 rounded-xl shadow-lg border-l-4 border-osteo-light mb-10">
+                    <p class="text-lg text-gray-700 leading-relaxed italic">
+                        « L'ostéopathie est une méthode thérapeutique manuelle douce qui repose sur une approche globale du corps humain. J'utilise des techniques de manipulation du système musculo-squelettique et des méthodes de relâchement myofascial pour soulager les tensions, corriger les déséquilibres et apaiser les douleurs. »
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <!-- Bloc 1: Manipulation douce -->
+                    <div class="p-6 bg-white rounded-xl shadow-md border-t-4 border-osteo-primary transition duration-300 hover:shadow-xl">
+                        <i class="fas fa-hand-holding-medical text-4xl text-osteo-primary mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-3">Techniques Manuelles et Douces</h3>
+                        <p class="text-gray-600">Soulagement des tensions, correction des déséquilibres et apaisement des douleurs (maux de dos, migraines, troubles digestifs, stress...).</p>
+                    </div>
+                    <!-- Bloc 2: Approche Globale -->
+                    <div class="p-6 bg-white rounded-xl shadow-md border-t-4 border-osteo-primary transition duration-300 hover:shadow-xl">
+                        <i class="fas fa-user-alt text-4xl text-osteo-primary mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-3">Une Prise en Charge Personnalisée</h3>
+                        <p class="text-gray-600">L'ostéopathie a une action à la fois préventive et curative. Elle est adaptée à chaque patient et à chaque motif de consultation.</p>
+                    </div>
+                    <!-- Bloc 3: Indications/Expertises -->
+                    <div class="p-6 bg-white rounded-xl shadow-md border-t-4 border-osteo-primary transition duration-300 hover:shadow-xl">
+                        <i class="fas fa-stethoscope text-4xl text-osteo-primary mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-3">Expertises Spécifiques</h3>
+                        <p class="text-gray-600">Approche crânienne, viscérale, ainsi que l'accompagnement des sportifs et des femmes enceintes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Pour Qui ? (Patients ciblés) -->
+        <section id="patients" class="py-12 md:py-16 bg-gray-100">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <h2 class="text-3xl font-bold text-center text-osteo-dark mb-10">L'Ostéopathie s'adresse à tous</h2>
+                <p class="text-center text-lg text-gray-700 mb-10 max-w-3xl mx-auto">
+                    Que ce soit pour un bilan préventif, soulager des douleurs chroniques ou accompagner une étape de vie spécifique, Cécile ROGER adapte ses techniques à chaque profil.
+                </p>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 text-center">
+                    <!-- Nourrissons -->
+                    <div class="p-4 bg-white rounded-xl shadow-md transition duration-300 hover:shadow-lg">
+                        <i class="fas fa-baby text-4xl text-osteo-light mb-3"></i>
+                        <h3 class="text-lg font-semibold mb-1">Nourrissons</h3>
+                        <p class="text-sm text-gray-600">Bilan post-accouchement, troubles du sommeil, plagiocéphalies.</p>
+                    </div>
+                    <!-- Enfants & Adolescents -->
+                    <div class="p-4 bg-white rounded-xl shadow-md transition duration-300 hover:shadow-lg">
+                        <i class="fas fa-child text-4xl text-osteo-light mb-3"></i>
+                        <h3 class="text-lg font-semibold mb-1">Enfants & Ados</h3>
+                        <p class="text-sm text-gray-600">Suivi de la croissance, douleurs liées au cartable, port d'appareils dentaires.</p>
+                    </div>
+                    <!-- Adultes -->
+                    <div class="p-4 bg-white rounded-xl shadow-md transition duration-300 hover:shadow-lg">
+                        <i class="fas fa-user-tie text-4xl text-osteo-light mb-3"></i>
+                        <h3 class="text-lg font-semibold mb-1">Adultes</h3>
+                        <p class="text-sm text-gray-600">Maux de dos, sciatiques, stress, troubles digestifs, migraines.</p>
+                    </div>
+                    <!-- Femmes Enceintes -->
+                    <div class="p-4 bg-white rounded-xl shadow-md transition duration-300 hover:shadow-lg">
+                        <i class="fas fa-venus text-4xl text-osteo-light mb-3"></i>
+                        <h3 class="text-lg font-semibold mb-1">Femmes Enceintes</h3>
+                        <p class="text-sm text-gray-600">Soulagement des douleurs ligamentaires, préparation à l'accouchement.</p>
+                    </div>
+                    <!-- Sportifs -->
+                    <div class="p-4 bg-white rounded-xl shadow-md transition duration-300 hover:shadow-lg">
+                        <i class="fas fa-dumbbell text-4xl text-osteo-light mb-3"></i>
+                        <h3 class="text-lg font-semibold mb-1">Sportifs</h3>
+                        <p class="text-sm text-gray-600">Amélioration des performances, récupération après blessure, bilan préventif.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section 4: Zone d'Intervention (SEO) -->
+        <section id="zone_intervention" class="py-12 bg-white">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <h2 class="text-2xl font-bold text-center text-osteo-dark mb-6">Accessibilité : Votre Ostéopathe Proche de chez Vous (20km)</h2>
+                <p class="text-center text-gray-700 mb-6 max-w-2xl mx-auto">
+                    Le cabinet de Cécile ROGER est idéalement situé à Sion-les-Mines, permettant un accès facile pour les patients du département de la Loire-Atlantique (44) et d'Ille-et-Vilaine (35).
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-2 md:gap-4 text-sm font-medium text-white">
+                    <span class="bg-gray-700 px-3 py-1 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Ostéopathe Châteaubriant (44)</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Ostéopathe Bain-de-Bretagne (35)</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Ostéopathe Derval (44)</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Ostéopathe Nozay (44)</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Grand-Fougeray (35)</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Ruffigné (44)</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Ercé-en-Lamée (35)</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Saint-Vincent-des-Landes (44)</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section 5: Avis Patients -->
+        <section id="reviews" class="py-12 md:py-16 bg-gray-100">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <h2 class="text-3xl font-bold text-center text-osteo-dark mb-10">Ce que disent les Patients</h2>
+
+                <!-- Affichage du résumé d'avis -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-osteo-light max-w-lg mx-auto text-center">
+                    <div class="flex items-center justify-center mb-4">
+                        <span class="text-5xl font-extrabold text-osteo-dark mr-4">5.0</span>
+                        <div>
+                            <div class="text-xl">
+                                <!-- Icônes d'étoiles (simulées 5/5) -->
+                                <i class="fas fa-star rating-star"></i>
+                                <i class="fas fa-star rating-star"></i>
+                                <i class="fas fa-star rating-star"></i>
+                                <i class="fas fa-star rating-star"></i>
+                                <i class="fas fa-star rating-star"></i>
+                            </div>
+                            <p class="text-gray-600 text-sm font-semibold mt-1">Note moyenne sur Google</p>
+                        </div>
+                    </div>
+
+                    <p class="text-gray-700 mb-6">
+                        Consultez directement les avis vérifiés de mes patients sur ma fiche Google Maps. Votre satisfaction est ma priorité.
+                    </p>
+
+                    <!-- Lien vers les avis réels -->
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=2+Rue+de+Saint-Sulpice,+44590+Sion-les-Mines" target="_blank" class="inline-block w-full px-6 py-3 bg-blue-600 text-white font-semibold text-lg rounded-lg shadow-xl hover:bg-blue-700 transition duration-300 transform hover:scale-[1.02]">
+                        <i class="fab fa-google mr-2"></i> Consulter TOUS les avis Google
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Informations Pratiques / Contact -->
+        <section id="contact" class="py-12 md:py-16">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <h2 class="text-3xl font-bold text-center text-osteo-primary mb-10">Informations Pratiques et Accès au Cabinet</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+                    <!-- Bloc 1: Coordonnées Mises à Jour et Horaires -->
+                    <div class="p-6 bg-white rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-osteo-dark">Cécile ROGER, Ostéopathe D.O.</h3>
+                        
+                        <!-- Informations de contact -->
+                        <p class="mb-4">
+                            <i class="fas fa-map-marker-alt mr-3 text-osteo-light"></i>
+                            <span class="font-bold">Adresse :</span> 2 Rue de Saint-Sulpice, 44590 Sion-les-Mines
+                        </p>
+                        <p class="mb-6">
+                            <i class="fas fa-phone mr-3 text-osteo-light"></i>
+                            <span class="font-bold">Téléphone :</span> 
+                            <a href="tel:+33623490415" class="hover:text-osteo-primary transition duration-300">06 23 49 04 15</a>
+                        </p>
+
+                        <!-- Horaires du Cabinet -->
+                        <h4 class="text-xl font-semibold mb-3 border-b pb-1 text-gray-700">Horaires d'Ouverture du Cabinet</h4>
+                        <table class="w-full text-left text-sm mb-6">
+                            <tbody>
+                                <tr class="border-b">
+                                    <td class="py-1 font-semibold">Lundi au Vendredi</td>
+                                    <td class="py-1 text-right">09h00 - 13h00</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-1 font-semibold"></td>
+                                    <td class="py-1 text-right">14h00 - 19h00</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 font-semibold">Samedi / Dimanche</td>
+                                    <td class="py-1 text-right italic text-red-600">Fermé</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mb-6">
+                            <i class="fas fa-euro-sign mr-3 text-osteo-light"></i>
+                            <span class="font-bold">Tarif :</span> 50 € la consultation. Règlement par Chèques ou Espèces (CB non acceptées).
+                        </p>
+
+                        <!-- Liens d'action mis à jour -->
+                        <div class="flex flex-col space-y-3">
+                            <a href="https://www.doctolib.fr/osteopathe/sion-les-mines/cecile-roger" target="_blank" class="text-center px-4 py-3 bg-doctolib text-white font-bold rounded-lg hover:bg-doctolib/90 transition duration-300">
+                                <i class="fas fa-calendar-alt mr-2"></i> Réserver sur Doctolib
+                            </a>
+                            <!-- Lien Google Maps pour itinéraire -->
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=2+Rue+de+Saint-Sulpice,+44590+Sion-les-Mines" target="_blank" class="text-center px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition duration-300">
+                                <i class="fab fa-google mr-2"></i> Itinéraire (Google Maps)
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Bloc 2: Carte Google Maps intégrée (iframe) -->
+                    <div class="rounded-xl shadow-lg overflow-hidden h-72 w-full">
+                        <iframe 
+                            src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=fr&amp;q=2+Rue+de+Saint-Sulpice,+44590+Sion-les-Mines+(Cécile+ROGER)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Emplacement du cabinet d'ostéopathie de Cécile ROGER à Sion-les-Mines"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bouton d'Action Flottant (Visible sur toutes les tailles d'écran) -->
+    <div class="fixed-cta bg-white border-t border-gray-200">
+        <a href="https://www.doctolib.fr/osteopathe/sion-les-mines/cecile-roger" target="_blank" class="w-full max-w-xs md:max-w-md px-6 py-3 bg-doctolib text-white font-extrabold rounded-lg shadow-2xl transition duration-300 transform hover:scale-[1.03] flex items-center justify-center">
+            <i class="fas fa-calendar-check mr-3 text-lg"></i> PRENDRE RDV SUR DOCTOLIB
+        </a>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-osteo-dark text-white py-8 pt-16 md:pt-8"> <!-- Augmentation du padding pour compenser le CTA fixe sur mobile -->
+        <div class="container mx-auto px-4 max-w-7xl text-center md:flex md:justify-between md:items-center">
+            <p class="text-sm mb-4 md:mb-0">&copy; 2024 Cécile ROGER - Ostéopathe D.O. - Sion-les-Mines (44590)</p>
+            <nav class="space-x-4 text-sm font-medium">
+                <a href="#approche" class="hover:text-osteo-light transition duration-300">Mon Approche</a>
+                <a href="#patients" class="hover:text-osteo-light transition duration-300">Pour Qui ?</a>
+                <a href="#zone_intervention" class="hover:text-osteo-light transition duration-300">Zone de Proximité</a>
+                <a href="#reviews" class="hover:text-osteo-light transition duration-300">Avis Patients</a>
+                <a href="#contact" class="hover:text-osteo-light transition duration-300">Contact & Accès</a>
+                <a href="#" class="hover:text-osteo-light transition duration-300">Mentions Légales</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
