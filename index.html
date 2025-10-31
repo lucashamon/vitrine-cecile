@@ -32,6 +32,20 @@
             box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
         }
     </style>
+    <style>
+        /* Empêche le bandeau CTA fixe de masquer le footer sur tous les écrans */
+        /* On réserve un espace au bas de la page égal à la hauteur du CTA fixe. */
+        body {
+            padding-bottom: 6.5rem; /* espace réservé pour le CTA fixe */
+        }
+
+        /* Si le CTA est plus grand sur grand écrans, augmenter légèrement l'espace */
+        @media (min-width: 1280px) {
+            body {
+                padding-bottom: 7.5rem;
+            }
+        }
+    </style>
     <script>
         tailwind.config = {
             theme: {
