@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="24" fill="#f7fafc" />
+  <g transform="translate(80,80)">
+    <rect x="0" y="0" width="320" height="120" rx="12" fill="#065f46" />
+    <path d="M40 140c30 0 30-40 60-40s30 40 60 40s30-40 60-40" stroke="#10b981" stroke-width="8" fill="none" stroke-linecap="round" />
+    <rect x="0" y="160" width="320" height="120" rx="12" fill="#ffffff" stroke="#e6eef0" />
+    <text x="20" y="40" font-family="sans-serif" font-size="20" fill="#ffffff" font-weight="700">Accueil</text>
+    <text x="20" y="200" font-family="sans-serif" font-size="14" fill="#6b7280">Salle d'attente et espace de soin</text>
+  </g>
+</svg>
